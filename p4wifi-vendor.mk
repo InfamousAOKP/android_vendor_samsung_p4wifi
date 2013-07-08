@@ -18,3 +18,5 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/p4wifi/overlay
 
 $(call inherit-product, vendor/samsung/p4wifi/p4wifi-vendor-blobs.mk)
+$(call inherit-product, vendor/gappstablet/gapps-vendor.mk)
+
